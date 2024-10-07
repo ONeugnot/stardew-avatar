@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	background-color: rgba(66, 66, 66, 1);
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+}
+
+main {
+	display: flex;
+	background-color: rgba(47, 47, 47, 1);
+	align-content: center;
+	border-radius: 20px;
+	flex-direction: column;
+}
+
+#photo-profil {
+	padding: 27px;
+	width: 50%;
+}
+
+.genre {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	width: 80%;
+	gap: 30px;
+}
+
+.prt-zone {
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+	gap: 35px 0;
+}
+
+.zone {
+	display: flex;
+	justify-content: end;
+	padding: 22px;
+	width: 50%;
+	flex-direction: column;
+	gap: 45px 0;
+}
+
+.top {
+	color: white;
+	padding: 12px;
+}
+
+.name {
+	background-color: rgba(62, 86, 98, 1);
+	color: white;
+	border: none;
+	height: 6vh;
+	width: 100%;
+	border-radius: 12px;
+	text-decoration: none;
+}
+
+.center {
+	display: flex;
+	flex-direction: row;
+}
+
+.barre {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 1rem;
+	height: 15%;
+}
+
+hr {
+	margin: 62px 32px 0 32px;
+	height: 3%;
+	background-color: white;
+	border-radius: 12px;
+}
+
+.btn {
+	width: 50%;
+	background-color: rgba(61, 169, 46, 1);
+	color: white;
+	border-radius: 12px;
+	border: none;
+	box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+}
